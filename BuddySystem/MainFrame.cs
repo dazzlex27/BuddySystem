@@ -2,11 +2,10 @@
 using System.Drawing;
 using System.Windows.Forms;
 // Программа эмулирует распределение и очистку памяти по методу близнецов
-namespace KursovayaPonomarenkoAV
+namespace BuddySystem
 {
     public partial class MainFrame : Form
     {
-        #region Переменные
         // Память
         int[] memory = null; // массив памяти
         int freeMemory = 0; // Свободная память
@@ -25,14 +24,12 @@ namespace KursovayaPonomarenkoAV
         int[] tree = null; // Дерево
         int outputCounter; // Счётчик для алгоритма разбиения блоков
         Bitmap bitmap; // Битмап для графики
-        #endregion
 
-        #region События и функции
-        // Служебные
         public MainFrame()
         {
             InitializeComponent();
-        } // <по умолчанию>
+        }
+
         void Form1_Load(object sender, EventArgs e)
         {
             pictureBox1.Image = null;
@@ -46,12 +43,13 @@ namespace KursovayaPonomarenkoAV
             fileLabel.Visible = false;
             numericUpDown2.Visible = false;
             toolStripStatusLabel1.Text = "Выделите память";
-        } // Параметры загрузки
+        }
+
         void MaxSize()
         {
             int exponent = (int)(Math.Log10(totalMemory) / Math.Log10(2)), intCounter = 0, pos = 0, check = 0;
             blockSizeMax = 0;
-            /// <проверка на полную занятость>
+            // Проверка на полную занятость.
             for (int counter = 0; counter < exponent; counter++)
             {
                 check = 0;
@@ -65,8 +63,7 @@ namespace KursovayaPonomarenkoAV
                 }
                     pos += (int)Math.Pow(2, counter);
             } 
-            /// </проверка на полную занятость>
-            /// <Поиск максимального свободного блока>
+            // Поиск максимального свободного блока.
             check = 1;
             while (true)
             {
@@ -90,12 +87,15 @@ namespace KursovayaPonomarenkoAV
                     }
                     catch { return; };
             }
-            /// </Поиск максимального свободного блока>
-        } // Поиск максимального размера доступного блока
+        } 
+        
+        // Поиск максимального размера доступного блока
         void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             numericUpDown1.Increment = numericUpDown1.Value;
-        } // Задание размера
+        } 
+        
+        // Задание размера
         void RefreshData()
         {
             total.Text = "Объём памяти: " + totalMemory + " кБ";
@@ -117,7 +117,9 @@ namespace KursovayaPonomarenkoAV
             for (int counter = 0; counter < tree.Length-1; counter++)
                 treeBox.Text += tree[counter];
             pictureBox1.Image = bitmap;
-        } // Обновление визуальных счётчиков данных и графики
+        } 
+        
+        // Обновление визуальных счётчиков данных и графики
         bool Position(int treeNode)
         {
             while (treeNode != 0)
@@ -130,26 +132,29 @@ namespace KursovayaPonomarenkoAV
                     return false;
             }
             return true;
-        } // Поиск свободной ветви дерева 
+        }
+
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        } // Кнопка выхода из программы
+        } 
+        
         private void fieldToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (!fieldToolStripMenuItem.Checked)
                 field.Visible = false;
             else
                 field.Visible = true;
-        } // Отображение массива памяти
+        }
+
         private void treeBoxToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (!treeToolStripMenuItem.Checked)
                 treeBox.Visible = false;
             else
                 treeBox.Visible = true;
-        }  // Отображение дерева
-        // Добавление
+        }  
+        
         void create_Click(object sender, EventArgs e)
         {
             if (!sizeCheck)
@@ -181,7 +186,8 @@ namespace KursovayaPonomarenkoAV
                 create.Enabled = false;
                 addFile.Enabled = true;
             }
-        }  // Создание области памяти
+        }
+
         void addFile_Click(object sender, EventArgs e)
         {
             if (!addCheck)
@@ -262,7 +268,8 @@ namespace KursovayaPonomarenkoAV
                 erase.Enabled = true;
                 /// </вторичное нажатие кнопки>
             }
-        } // Запуск добавления файла 
+        } 
+        
         void Add(int treeNode)
         {
             {
@@ -277,7 +284,8 @@ namespace KursovayaPonomarenkoAV
                     }
                 }
             }
-        } // Алгоритм поиска, заполнения подходящего блока и сопутствующего разбиения блоков 
+        } 
+        
         void Output(int totalMemory, int node)
         {
             /// <запрос на необходимость выполнения>
@@ -331,8 +339,8 @@ namespace KursovayaPonomarenkoAV
                 Output(totalMemory, 2 * node + 1);
                 Output(totalMemory, 2 * node + 2);
             }
-        }  // Заполнение массива памяти
-        // Удаление
+        }
+
         void deleteFile_Click(object sender, EventArgs e)
         {
             if (!deleteCheck)
@@ -360,7 +368,7 @@ namespace KursovayaPonomarenkoAV
                         intCounter = counter + 1;
                         break;
                     }
-                /// </поиск нужного файла>
+                // поиск нужного файла
                 /// <удаление файла из памяти>
                 try
                 {
@@ -412,7 +420,8 @@ namespace KursovayaPonomarenkoAV
                 addFile.Enabled = true;
                 erase.Enabled = true;
             }
-        } // Запуск удаления файла 
+        }
+
         void Delete(int numRequired)
         {
             int node = 0;
@@ -434,7 +443,8 @@ namespace KursovayaPonomarenkoAV
                 else
                     break;
             }
-        } // Алгоритм освобождения нужного блока и последующего объединения блоков
+        }
+
         void erase_Click(object sender, EventArgs e)
         {
             // Обновление счётчиков
@@ -453,7 +463,6 @@ namespace KursovayaPonomarenkoAV
             addFile.Enabled = false;
             deleteFile.Enabled = false;
             erase.Enabled = false;
-        } // Выгрузка области памяти 
-        #endregion
+        }
     }
 }

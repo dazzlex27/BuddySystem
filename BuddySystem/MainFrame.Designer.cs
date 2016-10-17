@@ -1,4 +1,4 @@
-﻿namespace KursovayaPonomarenkoAV
+﻿namespace BuddySystem
 {
     partial class MainFrame
     {
