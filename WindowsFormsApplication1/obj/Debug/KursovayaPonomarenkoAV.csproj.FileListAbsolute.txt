@@ -1,0 +1,21 @@
+E:\KursovayaPonomarenko\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\KursovayaPonomarenko\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\KursovayaPonomarenko\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\KursovayaPonomarenkoAV.csprojResolveAssemblyReference.cache
+E:\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\KursovayaPonomarenkoAV.Properties.Resources.resources
+E:\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\KursovayaPonomarenkoAV.csproj.GenerateResource.Cache
+E:\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\KursovayaPonomarenkoAV.MainFrame.resources
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\KursovayaPonomarenko\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\KursovayaPonomarenko\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\KursovayaPonomarenko\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\KursovayaPonomarenkoAV.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\KursovayaPonomarenkoAV.MainFrame.resources
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\KursovayaPonomarenkoAV.Properties.Resources.resources
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\KursovayaPonomarenkoAV.csproj.GenerateResource.Cache
+D:\Учёба\Курсовая\KursovayaPonomarenko - Copy\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Учёба\Курсовая\KursovayaPonomarenko - Copy\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Учёба\Курсовая\KursovayaPonomarenko - Copy\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

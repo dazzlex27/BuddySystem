@@ -1,0 +1,18 @@
+c:\users\alexey\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+c:\users\alexey\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\users\alexey\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\users\alexey\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+c:\users\alexey\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+c:\users\alexey\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\KursovayaPonomarenkoAV.Form1.resources
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\KursovayaPonomarenkoAV.Properties.Resources.resources
+E:\KursovayaPonomarenko\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\KursovayaPonomarenko\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\KursovayaPonomarenko\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\KursovayaPonomarenkoAV.Form1.resources
+E:\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\KursovayaPonomarenkoAV.Properties.Resources.resources
+E:\KursovayaPonomarenko\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
